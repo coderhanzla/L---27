@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="p3"></p>
+    <p id="p4"></p>
+    <script>
+        var a = 65;
+        var b = 25;
+        var c = 5;
+
+        var x = eval("a*b")
+        var y = eval("b/a")
+        var z = eval("a*b*c")
+
+         var res = x+y+z;
+
+         document.getElementById("p1").innerHTML  = x;
+         document.getElementById("p2").innerHTML  = y;
+         document.getElementById("p3").innerHTML  = z;
+         document.getElementById("p4").innerHTML  = res;
+    </script>
+</body>
+
+</html>
