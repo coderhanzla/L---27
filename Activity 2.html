@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="p1"></p>
+    <p id="p2"></p>
+
+    <script>
+        var num = [3 ,4, 5, 6, 9 , 89 ]
+        document.getElementById("p1").innerHTML = num;
+
+        function myFunction(num) {
+            return num * 10
+        }
+
+        var newnum = num.map (myFunction);
+         document.getElementById("p2").innerHTML = newnum;
+
+    </script>
+</body>
+</html>
